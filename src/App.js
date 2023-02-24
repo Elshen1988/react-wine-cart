@@ -6,12 +6,12 @@ function App() {
     {
       id:1,
       produktName:"bestWine",
-      inStock:true
+      inStock:false
     },
     {
       id:2,
       produktName:"lastWine",
-      inStock:false
+      inStock:true
     },
     {
       id:3,
@@ -27,8 +27,7 @@ function App() {
       id={user.id}
       produktName={user.produktName}
       inStock={user.inStock}
-      />
-    )
+      />)
   }
     </div>
   );
